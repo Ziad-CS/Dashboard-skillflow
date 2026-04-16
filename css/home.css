@@ -362,6 +362,7 @@ article ul {
     border: 3px solid ;
     box-shadow: 0 0 15px 5px cadetblue;
     position: relative;
+    overflow-y: hidden;
 }
 /* .timeline {
     display: inline-block;
