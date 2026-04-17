@@ -362,7 +362,6 @@ article ul {
     border: 3px solid ;
     box-shadow: 0 0 15px 5px cadetblue;
     position: relative;
-    overflow-y: hidden;
 }
 /* .timeline {
     display: inline-block;
@@ -372,9 +371,9 @@ article ul {
 .area::before {
     content: "";
     position: absolute;
-    left:50%;
-    top: -5px;
-    height: 105%;
+    left: 50%;
+    top: -1px;
+    height: 100%;
     width: 2px;
     background-color: rgb(133, 133, 133);
     border: 2px solid black;
